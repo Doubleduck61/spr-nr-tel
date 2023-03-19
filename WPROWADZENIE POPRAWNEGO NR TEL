@@ -1,0 +1,41 @@
+print("podaj swój nr" )
+numer=input()
+dlugosc=len(numer)
+if dlugosc==9:
+    print("To jest twój nr tel:",numer)
+elif dlugosc==11 or dlugosc==12 or dlugosc==13:
+    a1=numer[dlugosc-dlugosc].lstrip()
+    a2=a1.rstrip()
+    dlugosc1=dlugosc-1
+    b1=numer[dlugosc-dlugosc1].lstrip()
+    b2=b1.rstrip()
+    dlugosc1-=1
+    c1=numer[dlugosc-dlugosc1].lstrip()
+    c2=c1.rstrip()
+    dlugosc1-=1
+    d1=numer[dlugosc-dlugosc1].lstrip()
+    d2=d1.rstrip()
+    dlugosc1-=1
+    e1=numer[dlugosc-dlugosc1].lstrip()
+    e2=e1.rstrip()
+    dlugosc1-=1
+    f1=numer[dlugosc-dlugosc1].lstrip()
+    f2=f1.rstrip()
+    dlugosc1-=1
+    g1=numer[dlugosc-dlugosc1].lstrip()
+    g2=g1.rstrip()
+    dlugosc1-=1
+    h1=numer[dlugosc-dlugosc1].lstrip()
+    h2=h1.rstrip()
+    dlugosc1-=1
+    i1=numer[dlugosc-dlugosc1].lstrip()
+    i2=i1.rstrip()
+    dlugosc1-=1
+    j1=numer[dlugosc-dlugosc1].lstrip()
+    j2=j1.rstrip()
+    dlugosc1-=1
+    k1=numer[dlugosc-dlugosc1].lstrip()
+    k2=k1.rstrip()
+    print("To jest twój nr telefonu:"+a2+b2+c2+d2+e2+f2+g2+h2+i2+j2+k2)
+else:
+    print("To nie jest numer telefonu!")
