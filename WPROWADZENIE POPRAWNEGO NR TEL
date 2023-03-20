@@ -39,3 +39,16 @@ elif dlugosc==11 or dlugosc==12 or dlugosc==13:
     print("To jest twój nr telefonu:"+a2+b2+c2+d2+e2+f2+g2+h2+i2+j2+k2)
 else:
     print("To nie jest numer telefonu!")
+
+print("Dodatkowa zabawa!")
+print("Napisz coś")
+user_text=input()
+x=user_text.replace("a","4")
+x1=x.replace("b","8")
+x2=x1.replace("e","3")
+x3=x2.replace("l","1")
+x4=x3.replace("o","0")
+x5=x4.replace("s","5")
+x6=x5.replace("t","7")
+print("I like to eat eggs and spam.")
+print(x6)
