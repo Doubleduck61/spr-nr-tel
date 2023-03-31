@@ -1,3 +1,5 @@
+#może można to zrobić prościej? :)
+
 print("podaj swój nr" )
 numer=input()
 dlugosc=len(numer)
